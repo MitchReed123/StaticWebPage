@@ -6,17 +6,12 @@
     <title>Hulu</title>
     <link
       rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
       integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
       crossorigin="anonymous"
     />
     <link ref="text/css" rel="stylesheet" href="Hulu.css" />
   </head>
   <body>
-    <!-- <div class="topnav">
-      <a class="active" href="www.hulu.com/welcome">Hulu</a>
-      <a class="Login" href="https://auth.hulu.com/web/login">Login</a>
-    </div> -->
     <div
       class="top-third"
       style="background-image: url('Assets/netflix_livingroom_800.png');"
@@ -53,18 +48,149 @@
             <!-- -->
           </span>
         </div>
-        <button
-          type="button"
-          link="https://signup.hulu.com/account"
-          class="btn btn-success"
-        >
-          Success
-        </button>
+        <button type="button" class="buy">BUY NOW</button>
       </div>
     </div>
     <div class="box">
       <img src="Assets/livesports.jpg" class="big" />
     </div>
-    <div class="purchaseOptions"></div>
+    <div id="plans" role="region" aria-label="Plans" class="plans">
+      <div class="plan-header">
+        <h2 class="plan_headline">Select Your Plan</h2>
+        <p class="plan_description">
+          No hidden fees, equipment rentals or installion appointments
+        </p>
+      </div>
+      <div class="plan_row">
+        <div class="plan_card">
+          <div class="plan_card_border"></div>
+          <div class="plan_card_wrapper">
+            <div class="plan_card_header">
+              <h3 class="section_head">Hulu</h3>
+              <!-- <p class="p1_desc">Get 1 month free, the starts at</p> -->
+              <div class="plan_card_priceline">
+                <p class="plan_amount">
+                  Get 1 month free, then starts at
+                  <br />
+                  $5.99/ month
+                </p>
+              </div>
+              <div class="plan_card_btn_wrapper">
+                <form action="https://signup.hulu.com/account">
+                  <button
+                    type="submit"
+                    class="button_plan_card"
+                    aria-label="Select plan - Hulu for 5.99 USD per month"
+                  >
+                    Select Plan
+                  </button>
+                </form>
+              </div>
+            </div>
+            <div class="plan_card_mobile_wrap">
+              <div class="plan_card_list">
+                <ul>
+                  <li>
+                    <span
+                      role="presentation"
+                      class="plan_card_list_check"
+                    ></span>
+                    Get unlimited access to the Hulu streaming library with
+                    limited or no ads. Enjoy full seasons of exclusive series,
+                    hit movies, Hulu Originals, kids shows, and more
+                  </li>
+                  <li>
+                    <span
+                      role="presentation"
+                      class="plan_card_list_check"
+                    ></span>
+                    "Watch on your favorite devices"
+                  </li>
+                  <li>
+                    <span
+                      role="presentation"
+                      class="plan_card_list_check"
+                    ></span>
+                    Switch plans or cancel anytime
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="plan_card">
+          <div class="plan_class_border">
+            <div class="plan_card_wrapper">
+              <div class="plan_card_header">
+                <h3 class="section_head">Hulu + Live TV</h3>
+                <!-- <p class="p1_desc">Get 7 days free, then starts at</p> -->
+                <div class="plan_card_priceline">
+                  <p class="plan_amount">
+                    Get 7 days free, then starts at
+                    <br />
+                    $54.99/ month
+                  </p>
+                </div>
+                <div class="plan_card_btn_wrapper">
+                  <form action="https://signup.hulu.com/account">
+                    <button
+                      type="submit"
+                      class="button_plan_card"
+                      aria-label="Select plan - Hulu for 54.99 USD per month"
+                    >
+                      Select Plan
+                    </button>
+                  </form>
+                </div>
+              </div>
+              <div class="plan_card_mobile_wrap">
+                <div class="plan_card_list">
+                  <ul>
+                    <li>
+                      <span
+                        role="presentation"
+                        class="plan_card_list_check"
+                      ></span>
+                      Get unlimited access to the Hulu streaming library with
+                      limited or no ads. Enjoy full seasons of exclusive series,
+                      hit movies, Hulu Originals, kids shows, and more
+                    </li>
+                    <li>
+                      <span
+                        role="presentation"
+                        class="plan_card_list_check"
+                      ></span>
+                      Stream 60+ top Live and On Demand TV channels including
+                      sports, news, and entertainment
+                    </li>
+                    <li>
+                      <span
+                        role="presentation"
+                        class="plan_card_list_check"
+                      ></span>
+                      Record Live TV with 50 hours of Cloud DVR storage
+                    </li>
+                    <li>
+                      <span
+                        role="presentation"
+                        class="plan_card_list_check"
+                      ></span>
+                      Watch Live TV online and on supported devices
+                    </li>
+                    <li>
+                      <span
+                        role="presentation"
+                        class="plan_card_list_check"
+                      ></span>
+                      Switch plans or cancel anytime
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>

@@ -22,7 +22,7 @@
 body {
   width: 100%;
   height: auto;
-  background-color: black;
+  background-color: white;
 }
 
 /* Add a black background color to the top navigation */
@@ -131,4 +131,92 @@ img {
 .box {
   width: auto;
   border: 5px solid black;
+}
+
+.buy {
+  float: none;
+  position: relative;
+  width: 100px;
+  height: 45px;
+  left: 450px;
+  bottom: 50px;
+  border-radius: 5px;
+  border-color: white;
+  background-color: transparent;
+  color: white;
+}
+/* For the purchase cards */
+@media (max-width: 1279px) {
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+div .plan_row {
+  display: block;
+  margin: 0 auto;
+  padding: 0 10px;
+  display: flex;
+}
+.plan_card {
+  color: grey;
+  position: relative;
+  order: 2;
+  display: flex;
+  margin: auto;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #fff;
+  box-shadow: 0 2px 10px 0 rgba(134, 141, 155, 0.2);
+  max-width: 532px;
+  border-radius: 10px;
+  height: auto;
+}
+
+.section_head {
+  font-size: 20px;
+  color: gray;
+  text-emphasis: bold;
+}
+.p1_desc {
+  color: lightgray;
+  font-size: 15px;
+}
+.plan-header {
+  text-align: center;
+}
+
+.plan_card_list_check {
+  text-align: left;
+  color: grey;
+}
+.button_plan_card {
+  position: relative;
+  text-transform: uppercase;
+  white-space: nowrap;
+  border-radius: 4px;
+  cursor: pointer;
+  color: #ffffff;
+  background: #040505;
+  height: 46px;
+  min-width: 136px;
+  padding: 0 32px;
+  border: none;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 14px;
+  word-spacing: normal;
+  text-rendering: auto;
+  display: inline-block;
+  float: none;
+  left: 175px;
+}
+
+.section_head {
+  text-align: center;
+}
+
+.plan_amount {
+  text-align: center;
 }
